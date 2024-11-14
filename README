@@ -1,0 +1,60 @@
+# write readme for the project
+# Telegram Referral Contest Bot
+
+A Telegram bot for managing referral contests and campaigns.
+
+## Features
+
+- Create and manage referral campaigns
+- Track participants and invitations
+- Automatic winner selection
+- Real-time campaign statistics
+- Admin dashboard for campaign management
+
+## Prerequisites
+
+- Python 3.7+
+- Telegram Bot Token
+- channel or group chat id
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/telegram-referral-contest-bot.git
+   cd telegram-referral-contest-bot
+   ```
+
+2. Install required dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Configure environment variables:
+   - Create a `.env` file in the root directory
+
+   - Add your environment variables:
+     ```
+     BOT_TOKEN=your_telegram_bot_token
+     CHANNEL_GROUP_CHAT_ID=your_channel_group_chat_id
+     DATETIME_FORMAT=%d/%m/%Y %H:%M
+     BOT_OWNER=your_bot_owner_id
+     TIMIZONE=Africa/Addis_Ababa
+     ```
+
+## Usage
+
+1. Start the bot:
+   ```bash
+   python start.py
+   ```
+
+2. In Telegram, start a chat with your bot and follow the setup instructions.
+
+## Commands
+
+- `/start` - Initialize the bot
+- `/newcampaign` - Create a new referral campaign
+- `/stats` - View current campaign statistics
+- `/help` - Display available commands
+

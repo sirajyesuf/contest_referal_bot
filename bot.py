@@ -3,12 +3,7 @@ from telegram import Update
 import config
 import logging
 
-#production
-# BOT_TOKEN =5232005128:AAHm6hVCvE33LJsCWUYKDv2FgvPSNfzJjxY
-# CHANNEL_GROUP_CHAT_ID =-1001684228414
-# DATETIME_FORMAT = %d/%m/%Y %H:%M
-# BOT_OWNER = 5237382660
-# TIMIZONE = CET
+
 
 # Enable logging
 log_format = logging.Formatter(
